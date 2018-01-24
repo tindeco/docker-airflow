@@ -17,6 +17,7 @@ services:
             - EXECUTOR=Local
         volumes:
             - ./dags:/usr/local/airflow/dags
+            - ./requirements.txt:/requirements.txt
         ports:
             - "8080:8080"
         command: webserver
