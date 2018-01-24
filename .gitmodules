@@ -1,0 +1,3 @@
+[submodule "dags"]
+	path = dags
+	url = http://devops/market-data/ETL-airflow-dags
